@@ -6,6 +6,7 @@ file { '/usr/local/bin/run-puppet':
 
 file { '/tmp/hello.txt':
   content => "hello, world, valeriu\n",
+  owner  => 'vagrant',
 }
 
 
